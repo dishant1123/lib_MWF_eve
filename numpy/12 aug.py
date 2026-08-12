@@ -102,7 +102,7 @@ print("flatten of arr1 is  : \n",aar2)
 
 # ravel :
 
-arr1 = np.array([
+"""arr1 = np.array([
     [1,2,3],
     [4,5,6],
     [7,8,9]
@@ -113,3 +113,8 @@ aar2=arr1.ravel()
 arr1[2]=99
 print("original array arr1 is  : \n",arr1)
 print("ravel of arr1 is  : \n",aar2)
+"""
+
+arr = np.arange(1,33).reshape(2,2,2,4)
+print(arr)
+

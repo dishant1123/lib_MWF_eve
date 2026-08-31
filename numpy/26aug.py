@@ -18,6 +18,6 @@ import numpy as np
 
 """
 profit = revenue - cost
-
 total cost = 
 """
+# growth  : 

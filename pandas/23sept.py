@@ -9,7 +9,7 @@ from datetime import date
 5. concate 
 """
 
-data = {
+"""data = {
     'Product': [
         'Laptop',
         'Mouse',
@@ -44,6 +44,7 @@ data = {
 }
 
 df =pd.DataFrame(data)
+"""
 # print(df)
 
 # result = df['Product'].str.lower()
@@ -68,7 +69,7 @@ print(df)
 df['new_name'] =df['Product']+"-"+df['product_name']
 print(df)"""
 
-
+"""
 df['pur_date'] =pd.to_datetime(df['pur_date'])
 
 df['day'] =df['pur_date'].dt.day
@@ -80,7 +81,7 @@ df['today']=pd.to_datetime(df['today'])
 
 df['duration'] =(df['today'] - df['pur_date']).dt.days
 print(df)
-
+"""
 """
 dataframe  :
 
@@ -97,4 +98,5 @@ id   name           joining_date   duration
 
 
 """
+
 

@@ -19,7 +19,7 @@ print(arr)
 
 # np.loadtxt : cleaning data , data type  ----> int  
 
-"""arr=np.loadtxt("student.txt",skiprows=1,dtype=int)
+"""arr=np.loadtxt("numpy/student.txt",skiprows=1,dtype=int)
 print(arr)
 print(arr.shape)
 print(arr.mean())
@@ -42,11 +42,10 @@ print(arr.argmax())  # index number of the max  value
 """
 
 # ex :3 genfromtxt :
-
-"""arr =np.genfromtxt("student3.txt",delimiter=",",dtype=None,skip_header=1,filling_values=0)
+"""
+arr =np.genfromtxt("numpy/student.txt",delimiter=",",dtype=None,skip_header=1,filling_values=0)
 print(arr)
 """
-
 # ex :4 np.nan  -----> none 
 
 """arr= np.array([11,2,3,4,5,np.nan,6,7,8,9,11,2,3,4])

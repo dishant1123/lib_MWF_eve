@@ -36,41 +36,42 @@ print("horizontal array 2: \n",result2)
 # hw :  what is  different between hstack and vstack and flatten and ravel? 
 
 # concatenate :
-'''
-arr1 =np.array([1,2,3,4,5])
+
+"""arr1 =np.array([1,2,3,4,5])
 arr2 =np.array([6,7,8,9,10])
 
 arr3 =np.array([
     [1,2,3],
     [4,5,6]
 ])  # -------> arr3 shape is  : (2,3)
-
+"""
 """arr4 =np.array([
     [11,12,13],
     [14,15,16],
     [17,18,19]
 ])"""
 
-arr4 = np.array([
-    [11,12,13,14],
-    [15,16,17,18]
-])   # ------> arr4 shape is  : (2,4)
+# arr4 = np.array([
+#     [11,12,13,14],
+#     [15,16,17,18]
+# ])   # ------> arr4 shape is  : (2,4)
 # result = np.concatenate((arr1,arr2))
 # print("original array : \n",arr1)
 # print("original array 2: \n",arr2)
 
 # print("concatenate array :\n",result)
-print("arry 3: \n",arr3)
-print("arry 4: \n",arr4)
-print("concatenate array 2: \n",np.concatenate((arr3,arr4)))
+# print("arry 3: \n",arr3)
+# print("arry 4: \n",arr4)
+# print("concatenate array 2: \n",np.concatenate((arr3,arr4)))
+# print("concatenate array 3: \n",np.concatenate((arr1,arr2)))
 
 # note : concatenate  only  possible when  col are same  in  both array. 
 
-'''
+
 
 # dstack : stacking in depth
-
-"""arr1=np.array([
+"""
+arr1=np.array([
     [1,2,3,4],
     [5,6,7,8]
 ])
@@ -90,17 +91,17 @@ print("shape of dstack array :\n",result.shape)
 arr4 = np.arange(1,33).reshape(2,2,2,4)  
 print("arry 4: \n",arr4)
    #     -----> 2 *2  2 ,4 
-"""
 
+"""
 # split : 
 """
 sales =np.array([1000,2000,3000,4000,5000,6000])
 
-result =np.split(sales,3)
+result =np.split(sales,2)
 print("sales array :\n",sales)
 print("split array :\n",result)
-"""
 
+"""
 # array_split :
 
 """sales =np.array([1000,2000,3000,4000,5000,6000,7000])
@@ -140,10 +141,11 @@ print("view array :\n",arr2)
 """
 
 # copy :
-arr=np.array([10,20,30,40,50,60,70,80,90,100])
+"""arr=np.array([10,20,30,40,50,60,70,80,90,100])
 arr2=arr.copy()  
 
 arr[2]=1000
 
 print("original array :\n",arr)
 print("view array :\n",arr2)
+"""

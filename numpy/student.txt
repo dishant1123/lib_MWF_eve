@@ -1,0 +1,6 @@
+id,name,salary 
+101,ram ,100
+102,sita ,200
+103,ravan ,300
+104,laxman ,
+,bhudev,500

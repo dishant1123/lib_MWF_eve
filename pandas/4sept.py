@@ -83,3 +83,5 @@ create_engine = sa.create_engine(
 
 df =pd.read_sql("select * from sale_t",create_engine)
 print(df)
+
+

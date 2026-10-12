@@ -43,7 +43,7 @@ plt.show()
 """
 
 # line  graph  with   using  csv file  : 
-"""
+
 df= pd.read_csv("matplotlib/days_sales.csv")
 
 plt.plot(df['Day'],df['Sales'],color="red",marker="x",linestyle="--",linewidth=2)
@@ -52,11 +52,11 @@ plt.ylabel("sales")
 plt.title("sales vs days")
 plt.grid(True)
 plt.show()
-"""
+
 
 # bar chart  :  
 
-name =['ram','sita','ravan','laxman','bhudev']
+"""name =['ram','sita','ravan','laxman','bhudev']
 marks =[91,90,84,78,67]
 
 plt.bar(name,marks,color="red",width=0.7)
@@ -65,3 +65,4 @@ plt.ylabel("marks")
 plt.title("marks vs name")
 plt.xticks(rotation=45)
 plt.show()
+"""

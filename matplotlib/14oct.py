@@ -54,4 +54,23 @@ plt.show()
 
 # error bars :
 
-plt.errorbar()
+df['Total_Sales'] = df[['Electronics','Clothing','Furniture']].sum(axis=1)
+
+error = df['Total_Sales'] * 0.05  # 1300 
+
+plt.figure(figsize=(10,10))
+
+plt.errorbar(df['Month'],df['Total_Sales'],
+             yerr=error,
+             fmt='o',
+             color='red',
+             capsize=10,
+             label="Actual Sales")
+
+plt.xlabel("Months")
+plt.ylabel("Sales (₹ thousands)")
+plt.title("Monthly Sales")
+plt.legend(loc="upper left")
+plt.grid(True)
+plt.tight_layout()
+plt.show()

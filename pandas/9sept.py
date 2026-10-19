@@ -52,12 +52,12 @@ print("index_wise_sort : \n",index_wise_sort)
 
 # reset_index() :
 
-"""salary_wise_sort = df.sort_values(by="salary",ascending=False)
-print("salary_wise_sort : \n",salary_wise_sort)
+salary_wise_sort = df.sort_values(by="salary",ascending=False)
+# print("salary_wise_sort : \n",salary_wise_sort)
 
 result = salary_wise_sort.reset_index(drop=True)
 print("reset index : \n",result)
-"""
+
 
 # hw  : 
 """

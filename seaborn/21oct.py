@@ -39,6 +39,7 @@ plt.show()
 
 # barplot : 
 
+"""
 df = pd.read_csv("seaborn/customer_sales (1).csv")
 
 sns.barplot(
@@ -50,4 +51,17 @@ sns.barplot(
     estimator='sum'
 )
 plt.title("Average Sales by Gender")
+plt.show()
+"""
+
+# kde plot  : kernel density estimation
+
+df = pd.read_csv("seaborn/customer_sales (1).csv")
+
+sns.kdeplot(
+    data=df,
+    x="Sales",
+   
+)
+plt.title("KDE Plot")
 plt.show()

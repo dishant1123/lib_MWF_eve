@@ -1,0 +1,16 @@
+Transaction_ID,Transaction_Amount,Transaction_Type
+1,500,UPI
+2,700,Card
+3,800,UPI
+4,900,Cash
+5,1000,Card
+6,1100,UPI
+7,1200,Cash
+8,1300,Card
+9,1400,UPI
+10,1500,Cash
+11,1600,Card
+12,1700,UPI
+13,1800,Cash
+14,2000,Card
+15,15000,UPI

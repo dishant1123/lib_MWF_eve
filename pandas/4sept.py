@@ -80,8 +80,5 @@ host = "localhost"
 port = 3306
 create_engine = sa.create_engine(
     "mysql+pymysql://root:root@localhost:3306/dishant")
-
-df =pd.read_sql("select * from sale_t",create_engine)
-print(df)
-
+print(create_engine)
 
